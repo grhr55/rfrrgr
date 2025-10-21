@@ -1,8 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const tovar = require('../componets/tovar');
-const comanda  = require('../componets/comanda');
-const  zauv  = require('../componets/applications');
+const tovar = require('./componets/tovar');
+const comanda  = require('./componets/comanda');
+const  zauv  = require('./componets/applications');
 
 
 const dotenv = require ('dotenv');
